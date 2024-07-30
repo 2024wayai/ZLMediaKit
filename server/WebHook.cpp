@@ -501,7 +501,7 @@ void installWebHook() {
         if (start_with(args.params, kEdgeServerParam)) {
             // 源站收到来自边沿站的溯源请求，流不存在时立即返回拉流失败
             // closePlayer();
-            WarnL << "源站收到来自边沿站的溯源请求，流不存在时也发送请求----------------------------";
+            WarnL << "源站收到来自边沿站的溯源请求 流不存在时也发送请求----------------------------";
             // return;
         }
 
